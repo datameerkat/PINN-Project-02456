@@ -1,5 +1,6 @@
 matplotlib
 graphviz
+pandas
 #-c pytorch pytorch
 scikit-learn
 torchvision
@@ -7,3 +8,5 @@ seaborn
 networkx
 sympy
 #-c nvidia cuda-toolkit
+gymnasium
+renderlab
