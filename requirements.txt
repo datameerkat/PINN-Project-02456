@@ -1,0 +1,9 @@
+matplotlib
+graphviz
+#-c pytorch pytorch
+scikit-learn
+torchvision
+seaborn
+networkx
+sympy
+#-c nvidia cuda-toolkit
