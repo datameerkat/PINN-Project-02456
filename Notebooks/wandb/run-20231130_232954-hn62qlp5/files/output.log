@@ -1,0 +1,11 @@
+Epoch     1, Loss:   1.09138, ode_loss: 0.0000098, ic_loss: 0.7251702, data_loss: 0.3661982, aw_ode: 1.00, aw_ic: 1.00, aw_data: 1.00
+Epoch   100, Loss:   0.97651, ode_loss: 0.0000108, ic_loss: 0.6592138, data_loss: 0.3166244, aw_ode: 1.00, aw_ic: 1.00, aw_data: 1.00
+Epoch   200, Loss:   0.87185, ode_loss: 0.0000125, ic_loss: 0.5958802, data_loss: 0.2748213, aw_ode: 1.00, aw_ic: 1.00, aw_data: 1.00
+Epoch   300, Loss:   0.77536, ode_loss: 0.0000147, ic_loss: 0.5350901, data_loss: 0.2388013, aw_ode: 1.00, aw_ic: 1.00, aw_data: 1.00
+Epoch   400, Loss:   0.68494, ode_loss: 0.0000173, ic_loss: 0.4762683, data_loss: 0.2070091, aw_ode: 1.00, aw_ic: 1.00, aw_data: 1.00
+Epoch   500, Loss:   0.59933, ode_loss: 0.0000203, ic_loss: 0.4190716, data_loss: 0.1785214, aw_ode: 1.00, aw_ic: 1.00, aw_data: 1.00
+Epoch   600, Loss:   0.51814, ode_loss: 0.0000236, ic_loss: 0.3635925, data_loss: 0.1528236, aw_ode: 1.01, aw_ic: 1.00, aw_data: 1.00
+Epoch   700, Loss:   0.44160, ode_loss: 0.0000274, ic_loss: 0.3102432, data_loss: 0.1297204, aw_ode: 1.01, aw_ic: 1.00, aw_data: 1.00
+Epoch   800, Loss:   0.37037, ode_loss: 0.0000322, ic_loss: 0.2596164, data_loss: 0.1092542, aw_ode: 1.01, aw_ic: 1.00, aw_data: 1.00
+Epoch   900, Loss:   0.30534, ode_loss: 0.0000374, ic_loss: 0.2124336, data_loss: 0.0915744, aw_ode: 1.01, aw_ic: 1.00, aw_data: 1.00
+Epoch  1000, Loss:   0.24743, ode_loss: 0.0000424, ic_loss: 0.1694845, data_loss: 0.0767980, aw_ode: 1.01, aw_ic: 1.00, aw_data: 1.00
