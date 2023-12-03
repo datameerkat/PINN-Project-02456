@@ -1,0 +1,42 @@
+2023-11-30 22:05:37,422 INFO    MainThread:1716 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-11-30 22:05:37,422 INFO    MainThread:1716 [wandb_setup.py:_flush():76] Configure stats pid to 1716
+2023-11-30 22:05:37,422 INFO    MainThread:1716 [wandb_setup.py:_flush():76] Loading settings from C:\Users\max44\.config\wandb\settings
+2023-11-30 22:05:37,422 INFO    MainThread:1716 [wandb_setup.py:_flush():76] Loading settings from C:\Users\max44\OneDrive\GitHub\PINN-Project-02456\Notebooks\wandb\settings
+2023-11-30 22:05:37,422 INFO    MainThread:1716 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-11-30 22:05:37,429 INFO    MainThread:1716 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-11-30 22:05:37,429 INFO    MainThread:1716 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-11-30 22:05:37,430 INFO    MainThread:1716 [wandb_init.py:_log_setup():524] Logging user logs to C:\Users\max44\OneDrive\GitHub\PINN-Project-02456\Notebooks\wandb\run-20231130_220537-64a2fppv\logs\debug.log
+2023-11-30 22:05:37,430 INFO    MainThread:1716 [wandb_init.py:_log_setup():525] Logging internal logs to C:\Users\max44\OneDrive\GitHub\PINN-Project-02456\Notebooks\wandb\run-20231130_220537-64a2fppv\logs\debug-internal.log
+2023-11-30 22:05:37,430 INFO    MainThread:1716 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001AA0B1FE280>
+2023-11-30 22:05:37,430 INFO    MainThread:1716 [wandb_init.py:init():564] calling init triggers
+2023-11-30 22:05:37,430 INFO    MainThread:1716 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.0003, 'architecture': 'FFNN (8*32)', 'epochs': 1000, 'ODE loss': 'yes', 'IC loss': 'yes', 'Data points': 'true'}
+2023-11-30 22:05:37,434 INFO    MainThread:1716 [wandb_init.py:init():614] starting backend
+2023-11-30 22:05:37,434 INFO    MainThread:1716 [wandb_init.py:init():618] setting up manager
+2023-11-30 22:05:37,446 INFO    MainThread:1716 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2023-11-30 22:05:37,453 INFO    MainThread:1716 [wandb_init.py:init():624] backend started and connected
+2023-11-30 22:05:37,512 INFO    MainThread:1716 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2023-11-30 22:05:37,516 INFO    MainThread:1716 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-11-30 22:05:37,518 INFO    MainThread:1716 [wandb_init.py:init():716] updated telemetry
+2023-11-30 22:05:37,665 INFO    MainThread:1716 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-11-30 22:05:38,695 INFO    MainThread:1716 [wandb_run.py:_on_init():2254] communicating current version
+2023-11-30 22:05:38,821 INFO    MainThread:1716 [wandb_run.py:_on_init():2263] got version response 
+2023-11-30 22:05:38,821 INFO    MainThread:1716 [wandb_init.py:init():800] starting run threads in backend
+2023-11-30 22:05:57,869 WARNING MsgRouterThr:1716 [router.py:message_loop():77] message_loop has been closed
+2023-11-30 22:05:58,043 WARNING MainThread:1716 [wandb_init.py:init():1188] interrupted
+Traceback (most recent call last):
+  File "C:\Users\max44\anaconda3\lib\site-packages\wandb\sdk\wandb_init.py", line 1166, in init
+    run = wi.init()
+  File "C:\Users\max44\anaconda3\lib\site-packages\wandb\sdk\wandb_init.py", line 811, in init
+    run_start_result = run_start_handle.wait(timeout=30)
+  File "C:\Users\max44\anaconda3\lib\site-packages\wandb\sdk\lib\mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "C:\Users\max44\anaconda3\lib\site-packages\wandb\sdk\lib\mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "C:\Users\max44\anaconda3\lib\site-packages\wandb\sdk\lib\mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "C:\Users\max44\anaconda3\lib\threading.py", line 581, in wait
+    signaled = self._cond.wait(timeout)
+  File "C:\Users\max44\anaconda3\lib\threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
